@@ -15,7 +15,7 @@ public class Const
 
     public const string RDS = "rds";
     public const string SDS = "sds";
-
+     
     public const int INT_EDGE_LOW_NETWORK = 75;
     public const int INT_EDGE_HIGH_NETWORK = 384;
 
