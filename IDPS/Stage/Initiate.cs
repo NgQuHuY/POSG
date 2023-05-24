@@ -31,8 +31,8 @@ public static class Initiate
         }
         else
         {
-            do
-            {
+        do
+        {
                 ER_edge = ErdosRenyiGraphGenerator.Generate(50, 0.3);
             } while (ER_edge.Count != Const.INT_EDGE_HIGH_NETWORK);
         }
@@ -44,10 +44,11 @@ public static class Initiate
             edges[i].Connected_Node[1] = nodes[ER_edge[i].Item2] ;
         }
 
-         
 
 
-}
+
+
+    }
 
 }
 

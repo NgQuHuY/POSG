@@ -147,8 +147,8 @@ namespace IDPS
                 List<Trapped_info> trapped_Infos = new List<Trapped_info> { new Trapped_info() };
 
 
-                Node[] arr_node = new Node[50];
-                for (int i = 0; i < arr_node.Length; i++) { arr_node[i] = new Node(); }
+            Node[] arr_node = new Node[50];
+            for (int i = 0; i < arr_node.Length; i++) { arr_node[i] = new Node(); }
 
                 Edge[] arr_edge = new Edge[edge];
                 for (int i = 0; i < arr_edge.Length; i++) { arr_edge[i] = new Edge(); }
@@ -175,7 +175,7 @@ namespace IDPS
                    // count_node(arr_node);
                     //count_edge(arr_edge);
 
-                    Stage2.Run(arr_node);
+            Stage2.Run(arr_node);
                     //Console.WriteLine("State 2 \n");
                     //count_node(arr_node);
                     //count_edge(arr_edge);
